@@ -1,0 +1,30 @@
+# Pipeline outputs
+results*/
+*.bam
+*.bai
+*.bw
+*.npz
+
+# Raw and trimmed reads
+*.sra
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+
+# Reference files (large, downloaded by the script)
+*.fa
+*.fa.gz
+*.gtf
+*.gtf.gz
+star_*/
+
+# Temp files and logs
+tmp/
+srr_tmp/
+*.log
+Log.out
+
+# OS / editor
+.DS_Store
+*.swp
